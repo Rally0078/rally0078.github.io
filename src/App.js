@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="header">
+            <h1>The Lily Garden</h1>
+        </div>
+        <div class="container">
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li class="hoverbutton"><a href="#">Home</a></li>
+                        <li class="hoverbutton"><a href="#">About</a></li>
+                        <li class="hoverbutton"><a href="#">Contact</a></li>
+                        <li class="hoverbutton"><a href="#">Links</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <h3 class="pageTitle">Home Page</h3>
+            <div class="content">
+                <p>Welcome to my Lily Garden. This is where I post pictures of flowers, particularly Lilies.</p>
+            </div>
+        </div>
     </div>
   );
 }
