@@ -7,6 +7,7 @@ body {
   padding-left: 8%;
   padding-right: 8%;
 }
+
 .navbar {
   width: 100%;
   display: contents;
@@ -19,11 +20,7 @@ body {
 
 }
 
-.menu-icon {
-  cursor: pointer;
-}
-
-nav {
+.navbar nav {
   flex: 1;
   text-align: center;
 }
@@ -47,6 +44,11 @@ nav {
   background-color: rgb(248, 0, 128);
   padding: 35px;
 }
+
+.MenuHyper{
+  cursor: pointer;
+}
+
 .pageTitle {
   margin-top:10%;
   font-size: 25px;
@@ -55,9 +57,19 @@ nav {
 }
 
 .content {
-  background-color:rgba(245, 245, 245, 0.379);
+  background-color:rgba(155, 155, 155, 0.464);
+  flex: left;
   margin-top: 3%;
-  padding-left: 10%
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.content .subheading {
+  align-items: flex-start;
+  text-align: center;
+  
 }
 
 @media screen and (max-width: 1000px) {
