@@ -1,17 +1,20 @@
 import './App.css'
+import { Outlet, Link } from "react-router-dom";
 
 function MenuBar() {
    return ( <div class="container">
             <div class="navbar">
                 <nav>
                     <ul>
-                        <li class="hoverbutton"><a href="#" class="MenuHyper">About Me</a></li>
-                        <li class="hoverbutton"><a href="#" class="MenuHyper">Home</a></li>
-                        <li class="hoverbutton"><a href="#" class="MenuHyper">Contact</a></li>
+                        <li class="hoverbutton"><Link to="about">About Me</Link></li>
+                        <li class="hoverbutton"><Link to="/">Home</Link></li>
+                        <li class="hoverbutton"><Link to="/contact">Contact</Link></li>
                     </ul>
                 </nav>
             </div>
+            <Outlet />
         </div>
+        
    );
 }
 

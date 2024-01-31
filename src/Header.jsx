@@ -2,7 +2,7 @@ import './App.css'
 
 function Header() {
    return ( <div class="header">
-            <h1>The Lily Garden</h1>
+            <h1>Vimal's Portfolio</h1>
         </div>
    );
 }
