@@ -14,12 +14,12 @@ function About() {
                 <p>I have graduated with MSc in Physics from IISER Thiruvananthapuram in 2024. </p>
                 <hr></hr>
                 <div class="cv">
-                    <h2 class="subheading">CV</h2>
+                    <h2 class="subheading">CV (Currently Incomplete) </h2>
                     <h3 class="cv_subheading">Education</h3>
                     <ul>
                         <li class="cv_nobullet">
-                            <span class="cv_left"><h3 class="top_h3">Master of Science in Physics</h3></span>
-                            <span class="cv_right"><h4 class="top_h4">2022-2024</h4></span>
+                            <span class="cv_left"><h3 class="cv_top">Master of Science in Physics</h3></span>
+                            <span class="cv_right"><h4 class="cv_top">2022-2024</h4></span>
                             <div class="clear"></div>
 
                             <span class="cv_left"><h4>Indian Institute of Science Education and Research, Thiruvananthapuram</h4></span>
@@ -29,17 +29,22 @@ function About() {
                             <span class="cv_left"><p>CGPA: 9.20/10 - With Distinction.</p></span>
                             <span class="cv_right"></span>
                             <div class="clear"></div>
-                            <span class="cv_left"><p>Coursework: Classical Mechanics, Electromagnetism, Statistical Mechanics, Computational Physics, Machine Learning.</p></span>
-                            <div class="clear"></div>
-
+                            <p>Coursework: Classical Mechanics, Electromagnetism, Statistical Mechanics, Computational Physics, Machine Learning.</p>
                         </li>
+
+                        <li class="cv_nobullet"><br></br></li>
+
                         <li class="cv_nobullet">
-                            <span class="cv_left"><h3 class="top_h3">Bachelor of Science in Physics</h3></span>
-                            <span class="cv_right"><h4 class="top_h4">2019-2022</h4></span>
+                            <span class="cv_left"><h3 class="cv_top">Bachelor of Science in Physics</h3></span>
+                            <span class="cv_right"><h4 class="cv_top">2019-2022</h4></span>
                             <div class="clear"></div>
 
-                            <span class="cv_left"><h4>St. Xavier's College (Autonomous), Palayamkottai (Affiliated to Manonmaniam Sundaranar University, Tirunelveli)</h4></span>
+                            <span class="cv_left"><h4>St. Xavier's College (Autonomous), Palayamkottai </h4></span>
                             <span class="cv_right"><h4>Tirunelveli, Tamil Nadu, India</h4></span>
+                            <div class="clear"></div>
+
+                            <span class="cv_left"><h4>Affiliated to Manonmaniam Sundaranar University, Tirunelveli</h4></span>
+                            <span class="cv_right"></span>
                             <div class="clear"></div>
 
                             <span class="cv_left"><p>CGPA: 8.81/10 - First Class with Distinction.</p></span>
