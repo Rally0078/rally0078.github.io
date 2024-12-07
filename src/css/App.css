@@ -102,6 +102,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
+  width: 800px;
 }
 
 .content .cv .cv_left h3 {
@@ -168,9 +169,21 @@ body {
 
 @media screen and (max-width: 1366px) {
   .content .cv p {
-    width: 500px;
+    width: 650px;
   }
 } 
+
+@media screen and (max-width: 1024px) {
+  .content .cv p {
+    width: 600px;
+  }
+} 
+
+@media screen and (max-width: 800px) {
+  .content .cv p {
+    width: 500px;
+  }
+}
 
 @media screen and (max-width: 720px) {
   .header {
@@ -212,7 +225,14 @@ body {
     width: 500px;
   }
   .content .cv p {
-    width: 300px;
+    width: 450px;
     font-size: 15px;
   }
 } 
+
+@media screen and (max-width: 580px) {
+  .content .cv p {
+    width: 300px;
+    font-size: 15px;
+  }
+}
