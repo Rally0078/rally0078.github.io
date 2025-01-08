@@ -26,8 +26,7 @@ const Projects = () => {
                     Developed in Unreal Engine 5, it has a working multiplayer across LANs for upto 2 players.`, 
 
                     `Main menu gives the option to play single player, host a multiplayer a session, and join an existing multiplayer session. 
-                    Scripting was done in C++ and Unreal Engine's Blueprint visual scripting.
-                    3D models and animations were made possible thanks to Abishek Nimalan.`]
+                    Scripting was done in C++ and Unreal Engine's Blueprint visual scripting.`]
                     }
                     videoId={"5Wyk56bPiKU"}
                     />
@@ -35,8 +34,7 @@ const Projects = () => {
                     [`Car racing game with two cars. Set in the real life Monza Circuit in Italy. Developed in Unity 3D, 
                         it has a main menu, pause menu, and a car selection menu.`, 
 
-                    `Scripting was done in C#. Lap stopwatch and lap start/finish detection features are available. 
-                    3D models and animations were made possible thanks to Abishek Nimalan.`]
+                    `Scripting was done in C#. Lap stopwatch and lap start/finish detection features are available.`]
                     }
                     videoId={"Y4mWw4Ia42A"}
                     />

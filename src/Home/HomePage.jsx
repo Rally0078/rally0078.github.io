@@ -17,9 +17,9 @@ function HomePage() {
                 <PostYoutube postTitle={"Jaguar Racing Game(Unreal Engine 5, C++)"} 
                 postDescription={[
                     `I developed the logic for a racing game with cars from the British car manufacturer Jaguar.
-                    I programmed the input handling and the car driving mechanism in C++, and the HUD in Unreal Engine blueprints.`,
-                    `Currently developing a checkpoint system and a main menu with level selection and car selection.`,
-                    `Ingame models of the cars and the map were built in Blender by Abishek Nimalan.`
+                    Input handling and the car driving logic is written in C++, and the HUD is done in Unreal Engine blueprints. 
+                    The project has version control by a self-hosted Git repo using Gitea running on Docker.`,
+                    `Currently developing a checkpoint system and a main menu with level selection and car selection.`
                 ]}
                 isPlayList={true}
                 videoId={"videoseries?si=wDUoCOoxJJ2bufEm&amp;list=PLLWvKGU_E1WmeeTSteVhNjzxljcG0yQd5"}

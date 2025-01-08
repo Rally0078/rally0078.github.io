@@ -26,9 +26,9 @@ function About() {
                         <span class="cv_left"><h4>Title: Derivation of van der Waals Attractive Forces From Electromagnetic Fluctuations </h4></span>
                         <div class="clear"></div>
                         <p>Summary: The expression for the van der Waals attractive force between two plates was calculated from fundamental principles of electromagnetic fluctuations 
-                            using techniques from Statistical Field Theory.
+                            using techniques from Thermal Quantum Field Theory.
                         </p>
-
+                        <p>Techniques used: Thermal Quantum Field Theory, Green's Functions, Stochastic Processes, Autocorrelation.</p>
                         </li>
                     </ul>
 
