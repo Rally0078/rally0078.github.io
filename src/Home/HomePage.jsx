@@ -50,15 +50,14 @@ function HomePage() {
                     The application and the database are containerized using Docker and Docker Compose.`,
                     `I have plans to add virtual games that gain currency, and an inventory system for each user with a virtual shop containing items.`
                     ]}/>
-                <PostText postTitle={"Stock Exchange(C++, Python)"}
+                <PostText postTitle={"A Trading Bot(C++, Python)"}
                 postDescription={[
-                    `I am currently implementing a stock exchange using C++. 
-                    The exchange has multiple simulated stocks modelled using geometric brownian motion. 
-                    The exchange will also offer a REST API to obtain the latest value of the stock and the past values.`,
-                    `The exchange is written in C++ using Boost for the API and Eigen. 
+                    `I am currently implementing a trading bot. 
+                    The bot generates signals based on stock returns and other indicators using machine learning techniques such as random forests, XGBoost, LightGBM, etc., 
+                    A simulated stock exchange will offer a REST API to obtain the latest value of the stock and the past values.`,
+                    `The exchange is written in C++ using Drogon for the API and Eigen. 
                     The past stock prices are stored in a database consisting of time stamp and the price. 
                     There is no visualization of this right now, but I will consider adding visualization separately using both Python(Matplotlib) and C++(ImGui and ImPlot).`,
-                    `I am planning to utilize machine learning and deep learning algorithms to find trading signals using the stock exchange API.`
                 ]}
                 />
             </div>
