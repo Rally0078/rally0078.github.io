@@ -19,16 +19,34 @@ function About() {
                     <h3 class="cv_subheading">Experience</h3>
                     <ul>
                         <li class="cv_nobullet">
+                        <span class="cv_left"><h3 class="cv_top">Project Associate - 1</h3></span>
+                        <span class="cv_right"><h4 class="cv_top">April 2025 - Present</h4></span>
+                        <div class="clear"></div>
+                        <span class="cv_left"><h4>Equatorial Geophysical Research Laboratory, Indian Institute of Geomagnetism</h4></span>
+                        <span class="cv_right"><h4>Tirunelveli, Tamil Nadu, India</h4></span>
+                        <div class="clear"></div>
+                        <span class="cv_left"><h4>Summary:&nbsp;</h4></span>
+                        <p>Currently joined EGRL, Tirunelveli as a Project Associate - 1 to develop data analysis solutions for the data obtained from ionosondes. </p>
+                        <span class="cv_left"><h4>Roles:&nbsp;</h4></span>
+                        <p>Data processing and analysis from ionosonde antenna receivers, maintenance of legacy data analysis software, and development of data analysis tools for researchers.</p>
+                        <span class="cv_left"><h4>Technologies used:&nbsp;</h4></span>
+                        <p>Python, Qt6, Numpy, Pandas, Fortran 77(gfortran), CMake.</p>
+                        </li>
+
+                        <li class="cv_nobullet"><br></br></li>
+
+                        <li class="cv_nobullet">
                         <span class="cv_left"><h3 class="cv_top">Research: Master's Dissertation</h3></span>
                         <span class="cv_right"><h4 class="cv_top">December 2023 - May 2024</h4></span>
                         <div class="clear"></div>
-
                         <span class="cv_left"><h4>Title: Derivation of van der Waals Attractive Forces From Electromagnetic Fluctuations </h4></span>
                         <div class="clear"></div>
-                        <p>Summary: The expression for the van der Waals attractive force between two plates was calculated from fundamental principles of electromagnetic fluctuations 
+                        <span class="cv_left"><h4>Summary:&nbsp;</h4></span>
+                        <p>The expression for the van der Waals attractive force between two plates was calculated from fundamental principles of electromagnetic fluctuations 
                             using techniques from Thermal Quantum Field Theory.
                         </p>
-                        <p>Techniques used: Thermal Quantum Field Theory, Green's Functions, Stochastic Processes, Autocorrelation.</p>
+                        <span class="cv_left"><h4>Techniques used:&nbsp;</h4></span>
+                        <p>Thermal Quantum Field Theory, Green's Functions, Stochastic Processes, Autocorrelation.</p>
                         </li>
                     </ul>
 

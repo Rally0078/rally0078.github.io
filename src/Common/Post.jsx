@@ -20,7 +20,7 @@ const PostImage = (props) => {
         <div>
             <hr class='spacing'></hr>
             <h3>{postTitle}</h3>
-            <img src={imageName}></img>
+            <img src={imageName} alt="missingimage"></img>
             <div>{postDescription.map((line) => { return <p>{line}</p> })}</div>
         </div>
     );
