@@ -102,6 +102,15 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
+  width: 950px;
+}
+
+.content .cv .cv_bullet {
+  word-wrap: break-word;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
   width: 850px;
 }
 
@@ -188,6 +197,30 @@ body {
 @media screen and (max-width: 800px) {
   .content .cv p {
     width: 500px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .content .cv .cv_bullet {
+    width: 600px;
+  }
+} 
+
+@media screen and (max-width: 1366px) {
+  .content .cv .cv_bullet {
+    width: 500px;
+  }
+} 
+
+@media screen and (max-width: 1024px) {
+  .content .cv .cv_bullet {
+    width: 350px;
+  }
+} 
+
+@media screen and (max-width: 800px) {
+  .content .cv .cv_bullet {
+    width: 250px;
   }
 }
 

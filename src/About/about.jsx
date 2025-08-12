@@ -26,11 +26,21 @@ function About() {
                         <span class="cv_right"><h4>Tirunelveli, Tamil Nadu, India</h4></span>
                         <div class="clear"></div>
                         <span class="cv_left"><h4>Summary:&nbsp;</h4></span>
-                        <p>Currently joined EGRL, Tirunelveli as a Project Associate - 1 to develop data analysis solutions for the data obtained from ionosondes. </p>
-                        <span class="cv_left"><h4>Roles:&nbsp;</h4></span>
-                        <p>Data processing and analysis from ionosonde antenna receivers, maintenance of legacy data analysis software, and development of data analysis tools for researchers.</p>
+                        <p>Design and develop data analysis solutions for atmospheric science experiments, including ionosondes, MF radar, and VHF radar, 
+                            with a focus on modernizing legacy systems, enhancing data processing workflows, and exploring AI-driven analysis methods.</p>
+                        <span class="cv_left"><h4>Key Responsibilities:&nbsp;</h4></span>
+                        <br></br>
+                        <ul>
+                            <li class="cv_bullet">Process and analyze binary datasets from atmospheric experiments (ionosondes, MF radar, VHF radar)</li>
+                            <li class="cv_bullet">Maintain and enhance legacy Fortran software used for scientific data analysis.</li>
+                            <li class="cv_bullet">Develop modern, cross-platform GUIs in Python using Qt Framework to replace legacy tools for processing CADI ionogram data.</li>
+                            <li class="cv_bullet">Research and implement machine learning and deep learning techniques for automated extraction of ionospheric parameters from ionogram data.</li>
+                            <li class="cv_bullet">Simulate ionospheric ion density using computational models on high-performance computing (HPC) clusters.</li>
+                        </ul>
                         <span class="cv_left"><h4>Technologies used:&nbsp;</h4></span>
-                        <p>Python, Qt6, Numpy, Pandas, Fortran 77(gfortran), CMake.</p>
+                        <p>Python, Qt6, Numpy, Pandas, Fortran 77(gfortran), CMake, Apache PyArrow, SQL, PyTorch, SLURM workload manager, OpenMPI.</p>
+                        <span class="cv_left"><h4>Techniques used:&nbsp;</h4></span>
+                        <p>Data cleaning, Data analysis, Data visualization, Regression modelling, Computer Vision, Reinforcement Learning, High Performance Computing.</p>
                         </li>
 
                         <li class="cv_nobullet"><br></br></li>
